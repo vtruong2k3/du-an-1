@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style-2.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <title>Cửa hàng</title>
+    </head>
+    <body>
+        <header>
+            <div class="notification-bar">
+                <div class="container">
+                    <div class="content">
+                        <i class="bx bx-purchase-tag-alt"></i>
+                        <span>Giảm giá 30% trên toàn cửa hàng — Thời gian có hạn!</span>
+                        <div class="shop-now">
+                            <span>Shop Now</span>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <i class="bx bx-x"></i>
+            </div>
+            <div class="header">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/images/logo.png" alt="Đây là Logo" />
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./all-product.html">Sản phẩm</a></li>
+                        <li><a href="./blog.html">Về chúng tôi</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="items-icon">
+                    <i class="bx bx-search"></i>
+                    <i class="bx bx-user"></i>
+                    <i class="bx bx-cart"></i>
+                </div>
+            </div>
+        </header>
+        <section class="cart">
+            <div class="container">
+                <div class="checkout-title">
+                    <h1 style="margin-top: 60px;">Giỏ hàng</h1>
+                </div>
+                <div class="checkout-process">
+                    <div class="checkout-item" style="color: black">
+                        <div class="item" style="background-color: black">
+                            <span>1</span>
+                        </div>
+                        <h2>Giỏ hàng</h2>
+                    </div>
+                    <div class="checkout-item" style="color: #6c7275">
+                        <div class="item" style="background-color: #6c7275"><span>2</span></div>
+                        <h2>Chi tiết thanh toán</h2>
+                    </div>
+                    <div class="checkout-item" style="color: #6c7275">
+                        <div class="item" style="background-color: #6c7275"><span>3</span></div>
+                        <h2>Đơn hàng hoàn tất</h2>
+                    </div>
+                </div>
+
+                <div class="product-cart">
+                    <div class="product-cart__table">
+                        <table>
+                            <!-- <caption>Bảng thông tin sinh viên</caption> -->
+                            <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá</th>
+                                    <th>Tổng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="sanpham">
+                                        <img src="./assets/images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                            <a href=""><i class="bx bx-x"></i><span> Xóa</span></a>
+                                        </div>
+                                    </td>
+                                    <td><input type="number" min="0" class="soluong" /></td>
+                                    <td>100.00VNĐ</td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="sanpham">
+                                        <img src="./assets/images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                            <a href=""><i class="bx bx-x"></i><span> Xóa</span></a>
+                                        </div>
+                                    </td>
+                                    <td><input type="number" min="0" class="soluong" /></td>
+                                    <td>100.00VNĐ</td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="sanpham">
+                                        <img src="./assets/images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                            <a href=""><i class="bx bx-x"></i><span> Xóa</span></a>
+                                        </div>
+                                    </td>
+                                    <td><input type="number" min="0" class="soluong" /></td>
+                                    <td>100.00VNĐ</td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="discount">
+                            <h3>Bạn có mã giảm giá ?</h3>
+                            <p>Thêm mã của bạn để được giảm giá giỏ hàng ngay lập tức</p>
+                            <div>
+                                <input type="text" placeholder="Mã giảm giá" />
+                                <button>Áp dụng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-summary bd">
+                        <h3>Tóm tắt giỏ hàng</h3>
+                        <div class="cart df">
+                            <div>
+                                <input type="radio" checked name="cart" />
+                                <label for="">Miễn phí vận chuyển</label>
+                            </div>
+                            <p>0VNĐ</p>
+                        </div>
+                        <div class="cart df">
+                            <div>
+                                <input type="radio" name="cart" />
+                                <label for="">Chuyển phát nhanh</label>
+                            </div>
+                            <p>30000VNĐ</p>
+                        </div>
+                        <div class="cart df">
+                            <div>
+                                <input type="radio" name="cart" />
+                                <label for="">Hỏa tốc</label>
+                            </div>
+                            <p>50000VNĐ</p>
+                        </div>
+
+                        <div class="price df subtotal">
+                            <p>Tổng phụ</p>
+                            <h4>250000VNĐ</h4>
+                        </div>
+
+                        <div class="price df">
+                            <p>Tổng</p>
+                            <h4>300000VNĐ</h4>
+                        </div>
+
+                        <div class="button">
+                            <button><a href="./checkout.html">Thanh toán</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-contents">
+                <div class="content-1">
+                    <div class="logo">
+                        <img src="./assets/images/logowhite.png" alt="" />
+                    </div>
+                    <span>|</span>
+                    <div class="slogan">
+                        <span>Cửa hàng quà tặng & trang trí</span>
+                    </div>
+                </div>
+                <div class="content-2">
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#">Trang chủ</a></li>
+                            <li><a href="#">Sản phẩm</a></li>
+                            <li><a href="#">Bài viết</a></li>
+                            <li><a href="#">Về chúng tôi</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-btnbar">
+                <div class="copyright">
+                    <p>Copyright © 2023 3legant. All rights reserved</p>
+                    <a href="#">Chính sách bảo mật</a>
+                    <a href="#">Điều khoản sử dụng</a>
+                </div>
+                <div class="social-icon">
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-instagram"></i>
+                    <i class="bx bxl-youtube"></i>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

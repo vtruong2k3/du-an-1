@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0px auto;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color-blue: #377DFF;
+    --secondary-color-green: #38CB89;
+    --secondary-color-orange: #FFAB00;
+    --secondary-color-red: #FF5630;
+    --neutral-color-07: #141718;
+    --neutral-color-06: #232627;
+    --neutral-color-05: #343839;
+    --neutral-color-04: #6C7275;
+    --neutral-color-03: #E8ECEF;
+    --neutral-color-02: #F3F5F7;
+    --neutral-color-01: #FEFEFE;
+    --font-roboto: "Roboto", sans-serif;
+    --font-inter: "Inter", sans-serif;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.login {
+    background: #e6e8e9;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 60%;
+    height: 600px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex
+}
+
+.login img {
+    float: left;
+    width: 50%;
+    position: relative;
+
+}
+
+.login .login-logo {}
+
+.login .login-logo img {
+    width: 105px;
+    height: 24px;
+    position: absolute;
+    margin-left: 100%;
+    top: 50px;
+    left: 420px;
+    margin: 50px;
+}
+
+.login .login-form {
+    width: 50%;
+    padding-left: 8%;
+    margin-top: 14%;
+
+
+}
+
+.login .login-form h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 3%;
+    gap: 16px;
+}
+
+.login .login-form form {
+    margin-top: 10%;
+}
+
+.login .login-form form .i1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    width: 300px;
+    height: 40px;
+    background: #e6e8e9;
+    border: none;
+    border-bottom: 1px solid #E8ECEF;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.login form .login-m {
+    height: 24px;
+    margin-left: 1%;
+}
+
+.login form .login-m input {
+    float: left;
+    width: 15px;
+    height: 15px;
+    border: 1.5px;
+    border-radius: 4px;
+    line-height: 24px;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.login form .login-m span {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #6C7275;
+
+}
+
+.login form .login-m a {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #141718;
+    font-size: 12px;
+    margin-left: 20%;
+}
+
+.login form .signin {
+    font-family: "Inter", sans-serif;
+    margin-left: 1%;
+
+}
+
+.login form .signin span {
+    font-weight: 400;
+    color: #6C7275;
+    font-size: 12px;
+}
+
+.login form .signin a {
+    color: #38CB89;
+    font-weight: 600;
+    font-size: 12;
+}
+
+.login .login-form form .i2 {
+    width: 300px;
+    height: 40px;
+    padding: 10px, 40px, 10px, 40px;
+    border-radius: 8px;
+    gap: 8px;
+    background: #141718;
+    color: #E8ECEF;
+}

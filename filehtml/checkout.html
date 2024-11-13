@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style-2.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,500&display=swap"
+        rel="stylesheet" />
+    <title>Thanh toán</title>
+</head>
+
+<body>
+    <header>
+        <div class="notification-bar">
+            <div class="container">
+                <div class="content">
+                    <i class="bx bx-purchase-tag-alt"></i>
+                    <span>Giảm giá 30% trên toàn cửa hàng — Thời gian có hạn!</span>
+                    <div class="shop-now">
+                        <span>Shop Now</span>
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <i class="bx bx-x"></i>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/images/logo.png" alt="Đây là Logo" />
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./all-product.html">Sản phẩm</a></li>
+                    <li><a href="./blog.html">Về chúng tôi</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="items-icon">
+                <i class="bx bx-search"></i>
+                <i class="bx bx-user"></i>
+                <i class="bx bx-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="checkout">
+        <div class="container">
+            <div class="checkout-title">
+                <h1 style="margin-top: 60px;">Thanh toán</h1>
+            </div>
+            <div class="checkout-process">
+                <div class="checkout-item" style="color: #38cb89">
+                    <div class="item" style="background-color: #38cb89">
+                        <span><i class="bx bx-check"></i></span>
+                    </div>
+                    <h2>Giỏ hàng</h2>
+                </div>
+                <div class="checkout-item" style="color: black">
+                    <div class="item" style="background-color: black"><span>2</span></div>
+                    <h2>Chi tiết thanh toán</h2>
+                </div>
+                <div class="checkout-item" style="color: #6c7275">
+                    <div class="item" style="background-color: #6c7275"><span>3</span></div>
+                    <h2>Đơn hàng toàn tất</h2>
+                </div>
+            </div>
+            <div class="checkout-cart">
+                <div class="checkout-cart__form">
+                    <div class="info bd">
+                        <h2>Thông tin liên hệ</h2>
+                        <div class="name">
+                            <label for="">Tên</label>
+                            <input type="text" placeholder="Tên" />
+                            <label for="">Họ tên</label>
+                            <input type="text" placeholder="Họ tên" />
+                        </div>
+                        <div class="phone">
+                            <label for="">Số điện thoại</label>
+                            <input type="text" placeholder="Phone number" />
+                        </div>
+                        <div class="email">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="Email" />
+                        </div>
+                    </div>
+
+                    <div class="address bd">
+                        <h2>Địa chỉ giao hàng</h2>
+                        <label for="">Địa chỉ đường phố *</label>
+                        <input type="text" placeholder="Địa chỉ đường phố" />
+                        <label for="">Quốc gia *</label>
+                        <input type="text" placeholder="Quốc gia" />
+                        <label for="">Thị trấn / Thành phố *</label>
+                        <input type="text" placeholder="Thị trấn / Thành phố" />
+                        <div class="checkbox" style="">
+                            <input type="checkbox" name="" id="" />
+                            <p>Sử dụng địa chỉ thanh toán khác (tùy chọn)</p>
+                        </div>
+                    </div>
+
+                    <div class="payment bd">
+                        <h2>Phương thức thanh toán</h2>
+                        <div class="element">
+                            <input type="radio" />
+                            <label for="">Thanh toán bằng thẻ</label>
+                        </div>
+
+                        <div class="element">
+                            <input type="radio" />
+                            <label for="">Thanh khi nhận hàng</label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button><a href="./complete.html">Đặt hàng</a></button>
+                    </div>
+                </div>
+                <div class="checkout-cart__order bd">
+                    <div class="title">
+                        <h2>Tóm tắt đơn hàng</h2>
+                    </div>
+
+                    <table>
+                        <!-- <caption>Bảng thông tin sinh viên</caption> -->
+                        <!-- <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá</th>
+                                    <th>Tổng</th>
+                                </tr>
+                            </thead> -->
+                        <tbody>
+                            <tr style="display: flex; align-items: center; gap: 80px">
+                                <td class="sanpham">
+                                    <img src="./assets/images/product.png" alt="" />
+                                    <div class="df-column">
+                                        <h4>Ghế sắt</h4>
+                                        <p>Màu: Đen</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <label for=""></label>
+                                    <input type="number" min="0" class="soluong" />
+                                </td>
+                                <td>100.00VNĐ</td>
+                            </tr>
+
+                            <tr style="display: flex; align-items: center; gap: 80px">
+                                <td class="sanpham">
+                                    <img src="./assets/images/product.png" alt="" />
+                                    <div class="df-column">
+                                        <h4>Ghế sắt</h4>
+                                        <p>Màu: Đen</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <label for=""></label>
+                                    <input type="number" min="0" class="soluong" />
+                                </td>
+                                <td>100.00VNĐ</td>
+                            </tr>
+
+                            <tr style="display: flex; align-items: center; gap: 80px">
+                                <td class="sanpham">
+                                    <img src="./assets/images/product.png" alt="" />
+                                    <div class="df-column">
+                                        <h4>Ghế sắt</h4>
+                                        <p>Màu: Đen</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <label for=""></label>
+                                    <input type="number" min="0" class="soluong" />
+                                </td>
+                                <td>100.00VNĐ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="coupon">
+                        <input type="text" placeholder="Nhập mã" />
+                        <button>Áp dụng</button>
+                    </div>
+
+                    <div class="content">
+                        <div class="discout-code df m24">
+                            <p><i class="bx bx-purchase-tag-alt"></i>JenkateMW</p>
+                            <p>-$25.00 [Remove]</p>
+                        </div>
+                        <div class="shiping df m24">
+                            <p>Vận chuyển</p>
+                            <p>Miễn phí</p>
+                        </div>
+                        <div class="subtotal df m24">
+                            <p>Tổng phụ</p>
+                            <p>199.000VNĐ</p>
+                        </div>
+                        <div class="total df m24">
+                            <p>Tổng đơn hàng</p>
+                            <p>1234.000VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-contents">
+            <div class="content-1">
+                <div class="logo">
+                    <img src="./assets/images/logowhite.png" alt="" />
+                </div>
+                <span>|</span>
+                <div class="slogan">
+                    <span>Cửa hàng quà tặng & trang trí</span>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Sản phẩm</a></li>
+                        <li><a href="#">Bài viết</a></li>
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-btnbar">
+            <div class="copyright">
+                <p>Copyright © 2023 3legant. All rights reserved</p>
+                <a href="#">Chính sách bảo mật</a>
+                <a href="#">Điều khoản sử dụng</a>
+            </div>
+            <div class="social-icon">
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-youtube"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<script src="./script.js"></script>

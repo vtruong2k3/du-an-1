@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.349);
+}
+
+
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header input {
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+}
+
+.navbar {
+    display: flex;
+    margin-top: 110px;
+}
+
+.navbar-left {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+    width: 350px;
+    border-right: 1px solid rgba(128, 128, 128, 0.349);
+    height: 80vh;
+}
+
+.navbar .content {
+    width: 100%;
+    padding: 30px;
+    margin-left: 350px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.whiteRow {
+    background-color: white;
+}
+
+.grayRow {
+    background-color: #F5F5F5;
+}
+
+table {
+    border-spacing: 1;
+    background-color: #E5E5E5;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead th {
+    background-color: #D4D4D4;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+
+}
+
+
+.danhmuc {
+    display: flex;
+    gap: 50px;
+}
+
+.add-danhmuc {
+    display: block;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-danhmuc__title {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #EBDFD7;
+    margin-bottom: 20px;
+}
+
+.add-danhmuc__title i {
+    font-size: 30px;
+}
+
+.add-danhmuc form .input {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    align-items: center;
+}
+
+p {
+    color: red;
+    margin: 10px 0;
+}
+
+span {
+    color: orange;
+}
+
+.add-danhmuc input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    border-radius: 5px;
+    flex: 1;
+    font-size: 18px;
+}
+
+.add-danhmuc .submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.add-danhmuc .submit input {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+}
+
+.list-danhmuc {
+    display: block;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-danhmuc__title {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #EBDFD7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.list-danhmuc__add a {
+    display: flex;
+    align-items: center;
+}
+
+.list-danhmuc__add i {
+    font-size: 20px;
+}
+
+.list-danhmuc__add a input {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+.list-danhmuc__add a {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.list-danhmuc__show form {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.list-danhmuc__show select {
+    border-radius: 5px;
+}
+
+.list-danhmuc__show input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.list-sanpham__content {
+    font-size: 14px;
+}
+
+.sanpham-detail {
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sanpham-detail .row-detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    /* align-items: center; */
+    margin: 10px 0;
+}
+
+.sanpham-detail .row-detail label {
+    /* flex: 2; */
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sanpham-detail .row-detail input {
+    flex: 8;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c4c4c46e;
+}
+
+.sanpham-detail .row-detail textarea {
+    flex: 8;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.sanpham-detail .row-detail p {
+    flex: 8;
+    color: rgba(0, 0, 0, 0.705);
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sanpham-detail .row-detail select {
+    flex: 8;
+    color: rgba(0, 0, 0, 0.705);
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list-sanpham__content img {
+    height: 50px;
+    object-fit: cover;
+}
+
+.add-sanpham .row-detail input {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+}
+
+.color {
+    width: 20px;
+    height: 40px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* form taikhoan */
+.color-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-input-group label {
+    margin: unset !important;
+}
+
+.color-input-group input {
+    height: 50px;
+    padding: 5px;
+}
+
+.color-input-group .remove-color-btn {
+    cursor: pointer;
+}
